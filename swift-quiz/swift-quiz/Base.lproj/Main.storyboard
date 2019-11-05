@@ -47,17 +47,18 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <segue destination="98z-x7-gJU" kind="show" id="z0q-nx-kgw"/>
+                        <outlet property="onGoMainButton" destination="8bC-Xf-vdC" id="Ij7-KG-sgu"/>
+                        <segue destination="98z-x7-gJU" kind="show" identifier="Main" id="hb1-S1-hD0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="40.799999999999997" y="25.637181409295355"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="3lp-HO-os3">
             <objects>
-                <viewController id="98z-x7-gJU" sceneMemberID="viewController">
+                <viewController id="98z-x7-gJU" customClass="MainViewController" customModule="swift_quiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1rr-dx-o8H">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -108,17 +109,17 @@
                         <viewLayoutGuide key="safeArea" id="cbb-aR-mRo"/>
                     </view>
                     <connections>
-                        <segue destination="fce-9h-yau" kind="show" id="Vm2-fe-NsW"/>
+                        <segue destination="fce-9h-yau" kind="show" identifier="Quiz" id="Rn6-JD-dQ5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ofa-ce-g1U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="760.79999999999995" y="25.637181409295355"/>
         </scene>
-        <!--View Controller-->
+        <!--Quiz View Controller-->
         <scene sceneID="ee9-TP-y6U">
             <objects>
-                <viewController id="fce-9h-yau" sceneMemberID="viewController">
+                <viewController id="fce-9h-yau" customClass="QuizViewController" customModule="swift_quiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8GS-fp-lfx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -174,7 +175,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u8L-sz-iVy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1541.5999999999999" y="25.637181409295355"/>
+            <point key="canvasLocation" x="1474" y="26"/>
         </scene>
     </scenes>
     <resources>

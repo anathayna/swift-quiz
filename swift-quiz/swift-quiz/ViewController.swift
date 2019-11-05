@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var onGoMainButton: UIView!
+    
+    @IBAction func noGoMainButton(_ sender: Any) {
+        performSegue(withIdentifier: "Main", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
