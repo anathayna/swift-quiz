@@ -10,12 +10,19 @@ import UIKit
 
 class MainViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    //MARK: - Outlets
+    @IBOutlet var onGoQuiz: UIButton!
+    
+    //MARK: - Actions
+    @IBAction func onGoQuiz (_ sender: UIButton) {
+        performSegue(withIdentifier: "Quiz", sender: self)
     }
     
+    //MARK: - Lyfe Cicle
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
 
     /*
     // MARK: - Navigation

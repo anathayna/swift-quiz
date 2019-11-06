@@ -10,12 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var onGoMainButton: UIView!
+    //MARK: - Outlets
+    @IBOutlet var onGoMainButton: UIButton!
     
-    @IBAction func noGoMainButton(_ sender: Any) {
+    //MARK: - Actions
+    @IBAction func onGoMainButton(_ sender: UIButton) {
         performSegue(withIdentifier: "Main", sender: self)
     }
     
+    //MARK: - Lyfe Cicle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
