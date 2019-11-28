@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B09DB45239072AF00D6675D /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B09DB44239072AF00D6675D /* QuestionModel.swift */; };
 		7BFA14C32372066600723322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA14C22372066600723322 /* AppDelegate.swift */; };
 		7BFA14C52372066600723322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA14C42372066600723322 /* ViewController.swift */; };
 		7BFA14C82372066600723322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFA14C62372066600723322 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B09DB44239072AF00D6675D /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 		7BFA14BF2372066600723322 /* swift-quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFA14C22372066600723322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BFA14C42372066600723322 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				7BFA14CE2372066800723322 /* Info.plist */,
 				7BFA14F6237224F000723322 /* MainViewController.swift */,
 				7BFA14F8237224FD00723322 /* QuizViewController.swift */,
+				7B09DB44239072AF00D6675D /* QuestionModel.swift */,
 			);
 			path = "swift-quiz";
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				7BFA14C52372066600723322 /* ViewController.swift in Sources */,
 				7BFA14C32372066600723322 /* AppDelegate.swift in Sources */,
 				7BFA14F9237224FD00723322 /* QuizViewController.swift in Sources */,
+				7B09DB45239072AF00D6675D /* QuestionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

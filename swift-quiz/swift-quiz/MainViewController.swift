@@ -10,28 +10,78 @@ import UIKit
 
 class MainViewController: UIViewController {
 
-    //MARK: - Outlets
-    @IBOutlet var onGoQuiz: UIButton!
+    //MARK: Variables
+    var questions1: [Question] = {
+        
+        let question1 = Question(Question: "Quest˜indkjas ", Answers: [], Answer: 2, Image: #imageLiteral(resourceName: "SenacLogo"))
+        let question2 = Question(Question: "Quest˜indkjas ", Answers: [], Answer: 2, Image: #imageLiteral(resourceName: "AppleAcademy"))
+        let question3 = Question(Question: "Quest˜indkjas ", Answers: [], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
+        let question4 = Question(Question: "Quest˜indkjas ", Answers: [], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
+        
+        return [question1,question2,question3,question4]
+        
+    }()
     
-    //MARK: - Actions
-    @IBAction func onGoQuiz (_ sender: UIButton) {
-        performSegue(withIdentifier: "Quiz", sender: self)
-    }
+    var questions2: [Question] = {
+        
+        let question1 = Question(Question: "Quest˜indkjas ", Answers: [], Answer: 2, Image: #imageLiteral(resourceName: "AppleAcademy"))
+        let question2 = Question(Question: "Quest˜indkjas ", Answers: [], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
+        let question3 = Question(Question: "Quest˜indkjas ", Answers: [], Answer: 2, Image: #imageLiteral(resourceName: "SenacLogo"))
+        let question4 = Question(Question: "Quest˜indkjas ", Answers: [], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
+        
+        return [question1,question2,question3,question4]
+        
+    }()
+    
+    var questions3: [Question] = {
+        
+        let question1 = Question(Question: "Quest˜indkjas ", Answers: [], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
+        let question2 = Question(Question: "Quest˜indkjas ", Answers: [], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
+        let question3 = Question(Question: "Quest˜indkjas ", Answers: [], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
+        let question4 = Question(Question: "Quest˜indkjas ", Answers: [], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
+        
+        return [question1,question2,question3,question4]
+        
+    }()
+    
+    var questions4: [Question] = {
+        
+        let question1 = Question(Question: "Quest˜indkjas ", Answers: [], Answer: 2, Image: #imageLiteral(resourceName: "SenacLogo"))
+        let question2 = Question(Question: "Quest˜indkjas ", Answers: [], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
+        let question3 = Question(Question: "Quest˜indkjas ", Answers: [], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
+        let question4 = Question(Question: "Quest˜indkjas ", Answers: [], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
+        
+        return [question1,question2,question3,question4]
+        
+    }()
     
     //MARK: - Lyfe Cicle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    //MARK: Outlets
+    @IBOutlet var onGoQuizOne: UIButton!
+    @IBOutlet var onGoQuizTwo: UIButton!
+    
+    //MARK: - Actions
+    @IBAction func onGoQuizOne (_ sender: UIButton) {
+        let view = getQuizController(question: questions1)
+        navigationController?.pushViewController(view, animated: true)
+        
     }
-    */
+    
+    @IBAction func onGoQuizTwo(_ sender: Any) {
+        let view = getQuizController(question: questions4)
+        navigationController?.pushViewController(view, animated: true)
+    }
+    
+    func getQuizController(question: [Question]) -> QuizViewController {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let quizView = storyboard.instantiateViewController(withIdentifier: "QuizViewController") as! QuizViewController
+        quizView.questions = question
+        return quizView
+    }
 
 }
+

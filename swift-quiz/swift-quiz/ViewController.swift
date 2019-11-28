@@ -21,8 +21,11 @@ class ViewController: UIViewController {
     //MARK: - Lyfe Cicle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    override func viewDidAppear(_ animated: Bool) {
+        navigationController?.navigationBar.isHidden = true
+    }
+    
 }
 
