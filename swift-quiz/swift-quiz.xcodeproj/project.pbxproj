@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60EF32192393068700F74FB1 /* Prometo_Trial_Th.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60EF32182393068700F74FB1 /* Prometo_Trial_Th.ttf */; };
 		7B09DB45239072AF00D6675D /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B09DB44239072AF00D6675D /* QuestionModel.swift */; };
 		7BFA14C32372066600723322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA14C22372066600723322 /* AppDelegate.swift */; };
 		7BFA14C52372066600723322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA14C42372066600723322 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60EF32182393068700F74FB1 /* Prometo_Trial_Th.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Prometo_Trial_Th.ttf; path = ../../../../Downloads/Trial_prometo/TrialStaticFonts/Prometo_Trial_Th.ttf; sourceTree = "<group>"; };
 		7B09DB44239072AF00D6675D /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 		7BFA14BF2372066600723322 /* swift-quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFA14C22372066600723322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				7BFA14C22372066600723322 /* AppDelegate.swift */,
 				7BFA14C42372066600723322 /* ViewController.swift */,
 				7BFA14C62372066600723322 /* Main.storyboard */,
+				60EF32182393068700F74FB1 /* Prometo_Trial_Th.ttf */,
 				7BFA14C92372066800723322 /* Assets.xcassets */,
 				7BFA14CB2372066800723322 /* LaunchScreen.storyboard */,
 				7BFA14CE2372066800723322 /* Info.plist */,
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60EF32192393068700F74FB1 /* Prometo_Trial_Th.ttf in Resources */,
 				7BFA14CD2372066800723322 /* LaunchScreen.storyboard in Resources */,
 				7BFA14CA2372066800723322 /* Assets.xcassets in Resources */,
 				7BFA14C82372066600723322 /* Main.storyboard in Resources */,
