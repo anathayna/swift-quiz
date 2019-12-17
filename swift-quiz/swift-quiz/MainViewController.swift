@@ -9,14 +9,14 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
+    
     //MARK: Variables
     var tema1: [Question] = {
         
-        let question1 = Question(Question: "Quesndkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "AppleAcademy"))
-        let question2 = Question(Question: "Questndkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
-        let question3 = Question(Question: "Qundkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
-        let question4 = Question(Question: "Questdkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "SenacLogo"))
+        let question1 = Question(Question: "Quest˜indkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "Lua"))
+        let question2 = Question(Question: "Quest˜indkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "Lua"))
+        let question3 = Question(Question: "Quest˜indkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "Lua"))
+        let question4 = Question(Question: "Quest˜indkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "Lua"))
         
         return [question1,question2,question3,question4]
         
@@ -24,10 +24,10 @@ class MainViewController: UIViewController {
     
     var tema2: [Question] = {
         
-        let question1 = Question(Question: "Questdkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "AppleAcademy"))
-        let question2 = Question(Question: "Questindkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
-        let question3 = Question(Question: "Quesndkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "SenacLogo"))
-        let question4 = Question(Question: "Quesndkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
+        let question1 = Question(Question: "Quest˜indkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "Lua"))
+        let question2 = Question(Question: "Quest˜indkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "Lua"))
+        let question3 = Question(Question: "Quest˜indkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "Lua"))
+        let question4 = Question(Question: "Quest˜indkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "Buttom trevas"))
         
         return [question1,question2,question3,question4]
         
@@ -35,10 +35,10 @@ class MainViewController: UIViewController {
     
     var tema3: [Question] = {
         
-        let question1 = Question(Question: "Questndkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
-        let question2 = Question(Question: "Quesdkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
-        let question3 = Question(Question: "Quesndkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
-        let question4 = Question(Question: "Quesndkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
+        let question1 = Question(Question: "Quest˜indkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "Buttom trevas"))
+        let question2 = Question(Question: "Quest˜indkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "Buttom trevas"))
+        let question3 = Question(Question: "Quest˜indkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "Buttom trevas"))
+        let question4 = Question(Question: "Quest˜indkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "Buttom trevas"))
         
         return [question1,question2,question3,question4]
         
@@ -46,10 +46,10 @@ class MainViewController: UIViewController {
     
     var tema4: [Question] = {
         
-        let question1 = Question(Question: "Quesndkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "SenacLogo"))
-        let question2 = Question(Question: "Quesndkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
-        let question3 = Question(Question: "Quesndkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
-        let question4 = Question(Question: "Quesndkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "LaunchImage"))
+        let question1 = Question(Question: "Quest˜indkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "Buttom trevas"))
+        let question2 = Question(Question: "Quest˜indkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "Buttom trevas"))
+        let question3 = Question(Question: "Quest˜indkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "Buttom trevas"))
+        let question4 = Question(Question: "Quest˜indkjas ", Answers: ["aaa","bbb","ccc","ddd"], Answer: 2, Image: #imageLiteral(resourceName: "Buttom trevas"))
         
         return [question1,question2,question3,question4]
         
@@ -75,7 +75,7 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func onGoQuizTwo(_ sender: Any) {
-        let view = getQuizController(question: tema2)
+        let view = getQuizController(question: tema4)
         navigationController?.pushViewController(view, animated: true)
     }
     
@@ -85,6 +85,6 @@ class MainViewController: UIViewController {
         quizView?.questions = question
         return quizView!
     }
-
+    
 }
 
