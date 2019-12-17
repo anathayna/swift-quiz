@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		60EF32192393068700F74FB1 /* Prometo_Trial_Th.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60EF32182393068700F74FB1 /* Prometo_Trial_Th.ttf */; };
 		7B09DB45239072AF00D6675D /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B09DB44239072AF00D6675D /* QuestionModel.swift */; };
+		7B7131BA23A956F300A9A481 /* MainViewControllerTrevas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7131B923A956F300A9A481 /* MainViewControllerTrevas.swift */; };
+		7B7131BC23A9570800A9A481 /* QuizViewControllerTrevas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7131BB23A9570800A9A481 /* QuizViewControllerTrevas.swift */; };
 		7BFA14C32372066600723322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA14C22372066600723322 /* AppDelegate.swift */; };
 		7BFA14C52372066600723322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA14C42372066600723322 /* ViewController.swift */; };
 		7BFA14C82372066600723322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFA14C62372066600723322 /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		60EF32182393068700F74FB1 /* Prometo_Trial_Th.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Prometo_Trial_Th.ttf; path = ../../../../Downloads/Trial_prometo/TrialStaticFonts/Prometo_Trial_Th.ttf; sourceTree = "<group>"; };
 		7B09DB44239072AF00D6675D /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		7B7131B923A956F300A9A481 /* MainViewControllerTrevas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerTrevas.swift; sourceTree = "<group>"; };
+		7B7131BB23A9570800A9A481 /* QuizViewControllerTrevas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewControllerTrevas.swift; sourceTree = "<group>"; };
 		7BFA14BF2372066600723322 /* swift-quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFA14C22372066600723322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BFA14C42372066600723322 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				7BFA14F6237224F000723322 /* MainViewController.swift */,
 				7BFA14F8237224FD00723322 /* QuizViewController.swift */,
 				7B09DB44239072AF00D6675D /* QuestionModel.swift */,
+				7B7131B923A956F300A9A481 /* MainViewControllerTrevas.swift */,
+				7B7131BB23A9570800A9A481 /* QuizViewControllerTrevas.swift */,
 			);
 			path = "swift-quiz";
 			sourceTree = "<group>";
@@ -269,8 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B7131BC23A9570800A9A481 /* QuizViewControllerTrevas.swift in Sources */,
 				7BFA14F7237224F000723322 /* MainViewController.swift in Sources */,
 				7BFA14C52372066600723322 /* ViewController.swift in Sources */,
+				7B7131BA23A956F300A9A481 /* MainViewControllerTrevas.swift in Sources */,
 				7BFA14C32372066600723322 /* AppDelegate.swift in Sources */,
 				7BFA14F9237224FD00723322 /* QuizViewController.swift in Sources */,
 				7B09DB45239072AF00D6675D /* QuestionModel.swift in Sources */,
