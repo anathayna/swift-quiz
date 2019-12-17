@@ -39,11 +39,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VNg-PM-gWD">
-                                <rect key="frame" x="67" y="197" width="240" height="200"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Montanha e nuvem" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kb3-1U-ys6">
+                                <rect key="frame" x="-40" y="-56" width="454" height="755"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uA-Cl-5h0" customClass="O">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lua" translatesAutoresizingMaskIntoConstraints="NO" id="VNg-PM-gWD">
+                                <rect key="frame" x="219" y="175" width="119" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uA-Cl-5h0">
                                 <rect key="frame" x="133" y="395" width="108" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Buttom Luz"/>
@@ -67,10 +71,6 @@
                                     <action selector="onGoMainButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J8I-Eh-ruQ"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Montanha e nuvem" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kb3-1U-ys6">
-                                <rect key="frame" x="-15" y="-20" width="404" height="670"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.72156862745098038" green="0.47843137254901957" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -244,9 +244,10 @@
     <resources>
         <image name="Buttom Luz" width="339" height="127"/>
         <image name="Buttom trevas" width="339" height="127"/>
+        <image name="Lua" width="442" height="465"/>
         <image name="Montanha e nuvem" width="1354" height="2266"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="h6h-L0-VFt"/>
+        <segue reference="a3G-E3-uQB"/>
     </inferredMetricsTieBreakers>
 </document>
