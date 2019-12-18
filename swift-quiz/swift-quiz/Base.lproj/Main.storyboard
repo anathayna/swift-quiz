@@ -120,12 +120,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onGoQuizThree:" destination="98z-x7-gJU" eventType="touchUpInside" id="nNv-An-tUL"/>
+                                    <segue destination="fce-9h-yau" kind="show" identifier="QuizViewController" id="7VH-7x-JIZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zE-vY-A6t">
                                 <rect key="frame" x="196" y="406" width="138" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onGoQuizFour:" destination="98z-x7-gJU" eventType="touchUpInside" id="un1-o5-J56"/>
+                                    <segue destination="fce-9h-yau" kind="show" id="YhH-zu-3Uh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8df-xI-bUN">
                                 <rect key="frame" x="196" y="267" width="138" height="125"/>
@@ -142,7 +150,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="ry8-Mj-Tmv"/>
                     <connections>
+                        <outlet property="onGoQuizFour" destination="1rr-dx-o8H" id="Cwg-my-U8X"/>
                         <outlet property="onGoQuizOne" destination="Eg9-LP-LaH" id="bSU-xU-KIY"/>
+                        <outlet property="onGoQuizThree" destination="1rr-dx-o8H" id="fG8-C9-efC"/>
                         <outlet property="onGoQuizTwo" destination="8df-xI-bUN" id="9dG-ZS-uv4"/>
                         <segue destination="fce-9h-yau" kind="show" id="h6h-L0-VFt"/>
                     </connections>
@@ -226,8 +236,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="ffA-Ld-DTo"/>
                     <connections>
+                        <outlet property="CategoryLabel" destination="8GS-fp-lfx" id="2PY-wK-6VH"/>
                         <outlet property="PView" destination="ffV-FD-dD5" id="eut-16-ETX"/>
                         <outlet property="QLabel" destination="p8x-10-2Sy" id="n7K-UH-9WR"/>
+                        <outlet property="QuestionImage" destination="Uuy-R0-qfu" id="g4s-tt-yGl"/>
                         <outlet property="questionImage" destination="Uuy-R0-qfu" id="Mdr-T5-OA6"/>
                         <outletCollection property="Buttons" destination="8GS-fp-lfx" collectionClass="NSMutableArray" id="8GZ-7E-YW7"/>
                         <outletCollection property="Buttons" destination="nRb-Sm-N8p" collectionClass="NSMutableArray" id="uA1-Kz-XMg"/>
@@ -248,6 +260,6 @@
         <image name="Montanha e nuvem" width="1354" height="2266"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="a3G-E3-uQB"/>
+        <segue reference="YhH-zu-3Uh"/>
     </inferredMetricsTieBreakers>
 </document>

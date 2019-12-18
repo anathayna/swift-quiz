@@ -6,6 +6,7 @@
 //  Copyright © 2019 ANA THAYNA CONCEICAO FRANCA. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
 class QuizViewController: UIViewController {
@@ -14,7 +15,8 @@ class QuizViewController: UIViewController {
     var questions: [Question] = []
     
     //MARK: - Outlets
-    @IBOutlet var questionImage: UIImageView!
+    @IBOutlet var CategoryLabel: UILabel!
+    @IBOutlet var QuestionImage: UIImageView!
     @IBOutlet var QLabel: UILabel!          //Pergunta
     @IBOutlet var Buttons: [UIButton]!      //Opções
     @IBOutlet var PView: UIProgressView!    //Barra de progresso
@@ -34,7 +36,7 @@ class QuizViewController: UIViewController {
         if let question = questions.first {
             DispatchQueue.main.async {
                 self.QLabel.text = question.Question
-                self.questionImage.image = question.Image
+                self.QuestionImage.image = question.Image
             }
         }
     }
