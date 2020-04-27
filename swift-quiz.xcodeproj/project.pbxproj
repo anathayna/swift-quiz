@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36933E41245742A300326E67 /* font in Resources */ = {isa = PBXBuildFile; fileRef = 36933E40245742A200326E67 /* font */; };
+		36933E6E2457555300326E67 /* Prometo-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36933E602457555200326E67 /* Prometo-ThinItalic.ttf */; };
+		36933E6F2457555300326E67 /* Prometo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36933E612457555200326E67 /* Prometo-Black.ttf */; };
+		36933E702457555300326E67 /* Prometo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36933E622457555200326E67 /* Prometo-Thin.ttf */; };
+		36933E712457555300326E67 /* Prometo-XBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36933E632457555200326E67 /* Prometo-XBoldItalic.ttf */; };
+		36933E722457555300326E67 /* Prometo-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36933E642457555200326E67 /* Prometo-BlackItalic.ttf */; };
+		36933E732457555300326E67 /* Prometo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36933E652457555200326E67 /* Prometo-Italic.ttf */; };
+		36933E742457555300326E67 /* Prometo-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36933E662457555200326E67 /* Prometo-LightItalic.ttf */; };
+		36933E752457555300326E67 /* Prometo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36933E672457555200326E67 /* Prometo-Light.ttf */; };
+		36933E762457555300326E67 /* Prometo-XBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36933E682457555200326E67 /* Prometo-XBold.ttf */; };
+		36933E772457555300326E67 /* Prometo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36933E692457555200326E67 /* Prometo-Medium.ttf */; };
+		36933E782457555300326E67 /* Prometo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36933E6A2457555200326E67 /* Prometo.ttf */; };
+		36933E792457555300326E67 /* Prometo-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36933E6B2457555200326E67 /* Prometo-MediumItalic.ttf */; };
+		36933E7A2457555300326E67 /* Prometo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36933E6C2457555200326E67 /* Prometo-BoldItalic.ttf */; };
+		36933E7B2457555300326E67 /* Prometo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36933E6D2457555300326E67 /* Prometo-Bold.ttf */; };
 		7B09DB45239072AF00D6675D /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B09DB44239072AF00D6675D /* QuestionModel.swift */; };
 		7BFA14C32372066600723322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA14C22372066600723322 /* AppDelegate.swift */; };
 		7BFA14C52372066600723322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA14C42372066600723322 /* ViewController.swift */; };
@@ -19,7 +32,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		36933E40245742A200326E67 /* font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = font; sourceTree = "<group>"; };
+		36933E602457555200326E67 /* Prometo-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prometo-ThinItalic.ttf"; sourceTree = "<group>"; };
+		36933E612457555200326E67 /* Prometo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prometo-Black.ttf"; sourceTree = "<group>"; };
+		36933E622457555200326E67 /* Prometo-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prometo-Thin.ttf"; sourceTree = "<group>"; };
+		36933E632457555200326E67 /* Prometo-XBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prometo-XBoldItalic.ttf"; sourceTree = "<group>"; };
+		36933E642457555200326E67 /* Prometo-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prometo-BlackItalic.ttf"; sourceTree = "<group>"; };
+		36933E652457555200326E67 /* Prometo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prometo-Italic.ttf"; sourceTree = "<group>"; };
+		36933E662457555200326E67 /* Prometo-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prometo-LightItalic.ttf"; sourceTree = "<group>"; };
+		36933E672457555200326E67 /* Prometo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prometo-Light.ttf"; sourceTree = "<group>"; };
+		36933E682457555200326E67 /* Prometo-XBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prometo-XBold.ttf"; sourceTree = "<group>"; };
+		36933E692457555200326E67 /* Prometo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prometo-Medium.ttf"; sourceTree = "<group>"; };
+		36933E6A2457555200326E67 /* Prometo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Prometo.ttf; sourceTree = "<group>"; };
+		36933E6B2457555200326E67 /* Prometo-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prometo-MediumItalic.ttf"; sourceTree = "<group>"; };
+		36933E6C2457555200326E67 /* Prometo-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prometo-BoldItalic.ttf"; sourceTree = "<group>"; };
+		36933E6D2457555300326E67 /* Prometo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prometo-Bold.ttf"; sourceTree = "<group>"; };
 		7B09DB44239072AF00D6675D /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 		7BFA14BF2372066600723322 /* swift-quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFA14C22372066600723322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +95,27 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		36933E452457534200326E67 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				36933E612457555200326E67 /* Prometo-Black.ttf */,
+				36933E642457555200326E67 /* Prometo-BlackItalic.ttf */,
+				36933E6D2457555300326E67 /* Prometo-Bold.ttf */,
+				36933E6C2457555200326E67 /* Prometo-BoldItalic.ttf */,
+				36933E652457555200326E67 /* Prometo-Italic.ttf */,
+				36933E672457555200326E67 /* Prometo-Light.ttf */,
+				36933E662457555200326E67 /* Prometo-LightItalic.ttf */,
+				36933E692457555200326E67 /* Prometo-Medium.ttf */,
+				36933E6B2457555200326E67 /* Prometo-MediumItalic.ttf */,
+				36933E622457555200326E67 /* Prometo-Thin.ttf */,
+				36933E602457555200326E67 /* Prometo-ThinItalic.ttf */,
+				36933E682457555200326E67 /* Prometo-XBold.ttf */,
+				36933E632457555200326E67 /* Prometo-XBoldItalic.ttf */,
+				36933E6A2457555200326E67 /* Prometo.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
 		7BFA14B62372066500723322 = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +142,7 @@
 				7BFA14C92372066800723322 /* Assets.xcassets */,
 				7BFA14CB2372066800723322 /* LaunchScreen.storyboard */,
 				7BFA14CE2372066800723322 /* Info.plist */,
-				36933E40245742A200326E67 /* font */,
+				36933E452457534200326E67 /* font */,
 			);
 			path = "swift-quiz";
 			sourceTree = "<group>";
@@ -159,9 +206,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BFA14CD2372066800723322 /* LaunchScreen.storyboard in Resources */,
+				36933E762457555300326E67 /* Prometo-XBold.ttf in Resources */,
+				36933E722457555300326E67 /* Prometo-BlackItalic.ttf in Resources */,
+				36933E712457555300326E67 /* Prometo-XBoldItalic.ttf in Resources */,
 				7BFA14CA2372066800723322 /* Assets.xcassets in Resources */,
+				36933E702457555300326E67 /* Prometo-Thin.ttf in Resources */,
+				36933E732457555300326E67 /* Prometo-Italic.ttf in Resources */,
+				36933E742457555300326E67 /* Prometo-LightItalic.ttf in Resources */,
+				36933E752457555300326E67 /* Prometo-Light.ttf in Resources */,
+				36933E792457555300326E67 /* Prometo-MediumItalic.ttf in Resources */,
+				36933E6E2457555300326E67 /* Prometo-ThinItalic.ttf in Resources */,
+				36933E772457555300326E67 /* Prometo-Medium.ttf in Resources */,
+				36933E7B2457555300326E67 /* Prometo-Bold.ttf in Resources */,
+				36933E7A2457555300326E67 /* Prometo-BoldItalic.ttf in Resources */,
 				7BFA14C82372066600723322 /* Main.storyboard in Resources */,
-				36933E41245742A300326E67 /* font in Resources */,
+				36933E6F2457555300326E67 /* Prometo-Black.ttf in Resources */,
+				36933E782457555300326E67 /* Prometo.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
