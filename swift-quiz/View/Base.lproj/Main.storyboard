@@ -11,6 +11,9 @@
         <array key="Prometo-Thin.ttf">
             <string>Prometo-Thin</string>
         </array>
+        <array key="Prometo.ttf">
+            <string>Prometo</string>
+        </array>
     </customFonts>
     <scenes>
         <!--Navigation Controller-->
@@ -97,52 +100,58 @@
                                 <rect key="frame" x="276" y="110" width="61" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <state key="normal" title="Button"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9rp-wF-Xm9">
-                                <rect key="frame" x="285" y="171" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9rp-wF-Xm9">
+                                <rect key="frame" x="285" y="171" width="42" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Prometo" family="Prometo" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eg9-LP-LaH">
-                                <rect key="frame" x="41" y="267" width="138" height="125"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eg9-LP-LaH">
+                                <rect key="frame" x="42" y="267" width="138" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="biologicas"/>
                                 <connections>
                                     <action selector="onGoQuizOne:" destination="98z-x7-gJU" eventType="touchUpInside" id="fuP-CS-WoC"/>
                                     <segue destination="fce-9h-yau" kind="show" identifier="QuizViewController" id="EE4-6O-ECy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BgJ-en-T0X">
-                                <rect key="frame" x="41" y="406" width="138" height="133"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BgJ-en-T0X">
+                                <rect key="frame" x="41" y="417" width="138" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="audiovisual"/>
                                 <connections>
                                     <action selector="onGoQuizThree:" destination="98z-x7-gJU" eventType="touchUpInside" id="nNv-An-tUL"/>
                                     <segue destination="fce-9h-yau" kind="show" identifier="QuizViewController" id="7VH-7x-JIZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zE-vY-A6t">
-                                <rect key="frame" x="196" y="406" width="138" height="133"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="onGoQuizFour:" destination="98z-x7-gJU" eventType="touchUpInside" id="un1-o5-J56"/>
-                                    <segue destination="fce-9h-yau" kind="show" id="YhH-zu-3Uh"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8df-xI-bUN">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8df-xI-bUN">
                                 <rect key="frame" x="196" y="267" width="138" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="logica"/>
                                 <connections>
                                     <action selector="onGoQuizTwo:" destination="98z-x7-gJU" eventType="touchUpInside" id="faN-Iy-jhT"/>
                                     <segue destination="fce-9h-yau" kind="show" identifier="QuizViewController" id="a3G-E3-uQB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="categorias" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogh-Fg-WNc">
+                                <rect key="frame" x="41" y="116" width="189" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Prometo" family="Prometo" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zE-vY-A6t">
+                                <rect key="frame" x="196" y="417" width="138" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" image="humanas"/>
+                                <connections>
+                                    <action selector="onGoQuizFour:" destination="98z-x7-gJU" eventType="touchUpInside" id="un1-o5-J56"/>
+                                    <segue destination="fce-9h-yau" kind="show" id="YhH-zu-3Uh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -255,12 +264,16 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="YhH-zu-3Uh"/>
+        <segue reference="a3G-E3-uQB"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Buttom Luz" width="339" height="127"/>
         <image name="Buttom trevas" width="339" height="127"/>
         <image name="Lua" width="442" height="465"/>
         <image name="Montanha e nuvem" width="1354" height="2266"/>
+        <image name="audiovisual" width="138" height="125"/>
+        <image name="biologicas" width="138" height="125"/>
+        <image name="humanas" width="138" height="125"/>
+        <image name="logica" width="138" height="125"/>
     </resources>
 </document>
