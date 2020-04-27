@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36933E41245742A300326E67 /* font in Resources */ = {isa = PBXBuildFile; fileRef = 36933E40245742A200326E67 /* font */; };
 		7B09DB45239072AF00D6675D /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B09DB44239072AF00D6675D /* QuestionModel.swift */; };
 		7BFA14C32372066600723322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA14C22372066600723322 /* AppDelegate.swift */; };
 		7BFA14C52372066600723322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA14C42372066600723322 /* ViewController.swift */; };
@@ -17,24 +18,8 @@
 		7BFA14F9237224FD00723322 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA14F8237224FD00723322 /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7BFA14D42372066800723322 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7BFA14B72372066500723322 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7BFA14BE2372066600723322;
-			remoteInfo = "swift-quiz";
-		};
-		7BFA14DF2372066800723322 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7BFA14B72372066500723322 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7BFA14BE2372066600723322;
-			remoteInfo = "swift-quiz";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		36933E40245742A200326E67 /* font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = font; sourceTree = "<group>"; };
 		7B09DB44239072AF00D6675D /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 		7BFA14BF2372066600723322 /* swift-quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFA14C22372066600723322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +28,6 @@
 		7BFA14C92372066800723322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BFA14CC2372066800723322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BFA14CE2372066800723322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BFA14D32372066800723322 /* swift-quizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-quizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BFA14DE2372066800723322 /* swift-quizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-quizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFA14F6237224F000723322 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7BFA14F8237224FD00723322 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,23 +40,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BFA14D02372066800723322 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BFA14DB2372066800723322 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36933E422457436700326E67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7BFA14C42372066600723322 /* ViewController.swift */,
+				7BFA14F6237224F000723322 /* MainViewController.swift */,
+				7BFA14F8237224FD00723322 /* QuizViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		36933E432457437000326E67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7BFA14C62372066600723322 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		36933E442457437D00326E67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B09DB44239072AF00D6675D /* QuestionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		7BFA14B62372066500723322 = {
 			isa = PBXGroup;
 			children = (
@@ -86,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				7BFA14BF2372066600723322 /* swift-quiz.app */,
-				7BFA14D32372066800723322 /* swift-quizTests.xctest */,
-				7BFA14DE2372066800723322 /* swift-quizUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,14 +89,13 @@
 			isa = PBXGroup;
 			children = (
 				7BFA14C22372066600723322 /* AppDelegate.swift */,
-				7BFA14C42372066600723322 /* ViewController.swift */,
-				7BFA14C62372066600723322 /* Main.storyboard */,
+				36933E442457437D00326E67 /* Model */,
+				36933E432457437000326E67 /* View */,
+				36933E422457436700326E67 /* Controller */,
 				7BFA14C92372066800723322 /* Assets.xcassets */,
 				7BFA14CB2372066800723322 /* LaunchScreen.storyboard */,
 				7BFA14CE2372066800723322 /* Info.plist */,
-				7BFA14F6237224F000723322 /* MainViewController.swift */,
-				7BFA14F8237224FD00723322 /* QuizViewController.swift */,
-				7B09DB44239072AF00D6675D /* QuestionModel.swift */,
+				36933E40245742A200326E67 /* font */,
 			);
 			path = "swift-quiz";
 			sourceTree = "<group>";
@@ -128,42 +120,6 @@
 			productReference = 7BFA14BF2372066600723322 /* swift-quiz.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7BFA14D22372066800723322 /* swift-quizTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7BFA14EA2372066800723322 /* Build configuration list for PBXNativeTarget "swift-quizTests" */;
-			buildPhases = (
-				7BFA14CF2372066800723322 /* Sources */,
-				7BFA14D02372066800723322 /* Frameworks */,
-				7BFA14D12372066800723322 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7BFA14D52372066800723322 /* PBXTargetDependency */,
-			);
-			name = "swift-quizTests";
-			productName = "swift-quizTests";
-			productReference = 7BFA14D32372066800723322 /* swift-quizTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7BFA14DD2372066800723322 /* swift-quizUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7BFA14ED2372066800723322 /* Build configuration list for PBXNativeTarget "swift-quizUITests" */;
-			buildPhases = (
-				7BFA14DA2372066800723322 /* Sources */,
-				7BFA14DB2372066800723322 /* Frameworks */,
-				7BFA14DC2372066800723322 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7BFA14E02372066800723322 /* PBXTargetDependency */,
-			);
-			name = "swift-quizUITests";
-			productName = "swift-quizUITests";
-			productReference = 7BFA14DE2372066800723322 /* swift-quizUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -176,14 +132,6 @@
 				TargetAttributes = {
 					7BFA14BE2372066600723322 = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					7BFA14D22372066800723322 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 7BFA14BE2372066600723322;
-					};
-					7BFA14DD2372066800723322 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 7BFA14BE2372066600723322;
 					};
 				};
 			};
@@ -201,8 +149,6 @@
 			projectRoot = "";
 			targets = (
 				7BFA14BE2372066600723322 /* swift-quiz */,
-				7BFA14D22372066800723322 /* swift-quizTests */,
-				7BFA14DD2372066800723322 /* swift-quizUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -215,20 +161,7 @@
 				7BFA14CD2372066800723322 /* LaunchScreen.storyboard in Resources */,
 				7BFA14CA2372066800723322 /* Assets.xcassets in Resources */,
 				7BFA14C82372066600723322 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BFA14D12372066800723322 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BFA14DC2372066800723322 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				36933E41245742A300326E67 /* font in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,34 +180,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BFA14CF2372066800723322 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BFA14DA2372066800723322 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7BFA14D52372066800723322 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7BFA14BE2372066600723322 /* swift-quiz */;
-			targetProxy = 7BFA14D42372066800723322 /* PBXContainerItemProxy */;
-		};
-		7BFA14E02372066800723322 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7BFA14BE2372066600723322 /* swift-quiz */;
-			targetProxy = 7BFA14DF2372066800723322 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7BFA14C62372066600723322 /* Main.storyboard */ = {
@@ -446,84 +352,6 @@
 			};
 			name = Release;
 		};
-		7BFA14EB2372066800723322 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "swift-quizTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appleacademy.swift-quizTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-quiz.app/swift-quiz";
-			};
-			name = Debug;
-		};
-		7BFA14EC2372066800723322 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "swift-quizTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appleacademy.swift-quizTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-quiz.app/swift-quiz";
-			};
-			name = Release;
-		};
-		7BFA14EE2372066800723322 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "swift-quizUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appleacademy.swift-quizUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "swift-quiz";
-			};
-			name = Debug;
-		};
-		7BFA14EF2372066800723322 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "swift-quizUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appleacademy.swift-quizUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "swift-quiz";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -541,24 +369,6 @@
 			buildConfigurations = (
 				7BFA14E82372066800723322 /* Debug */,
 				7BFA14E92372066800723322 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7BFA14EA2372066800723322 /* Build configuration list for PBXNativeTarget "swift-quizTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7BFA14EB2372066800723322 /* Debug */,
-				7BFA14EC2372066800723322 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7BFA14ED2372066800723322 /* Build configuration list for PBXNativeTarget "swift-quizUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7BFA14EE2372066800723322 /* Debug */,
-				7BFA14EF2372066800723322 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
